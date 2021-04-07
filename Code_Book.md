@@ -1,8 +1,9 @@
-IDs:
+# Week 4 Project: Tidy Data
+## IDs:
 subjectId: ID of the test subject
 activityId: Type of activity captured
  
-Columns:
+## Columns:
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
@@ -564,3 +565,11 @@ angle(tBodyGyroJerkMean,gravityMean)
 angle(X,gravityMean)
 angle(Y,gravityMean)
 angle(Z,gravityMean)
+
+## Activity Labels:
+WALKING_UPSTAIRS: Observance was while walking upstairs
+WALKING_DOWNSTAIRS:Observance was while walking downstairs
+WALKING:Observance was while walking 
+SITING:Observance was while seated
+STANDING:Observance was while standing
+LAYING:Observance was while laying down
